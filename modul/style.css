@@ -1,0 +1,353 @@
+*{
+	margin: 0; padding: 0;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: normal;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+	font-size: 16px;
+}
+.konten{
+	width: 1000px; margin: 0 auto;
+}
+input, textarea, button{
+	padding: 8px; border-radius: 4px;
+}
+input, textarea{
+	border: 1px solid #e7e7e7;
+}
+button{
+	cursor: pointer;
+}
+nav{
+	background-color: #222;
+	height: 60px;
+	display: block; line-height: 60px;
+	border: 1px solid #080808;
+}
+nav li{
+	display: inline-block;
+	padding: 0px 10px;
+	color: #bbb;
+	font-size: 0.97em;
+}
+nav li:hover{color: #fff;}
+nav ul, nav b{float: left;}
+nav b{
+	padding: 0px 10px 0px 0px;
+	font-weight: bold;
+	color: #fff;
+}
+nav form{float: right;}
+nav button{
+	background-color: #2196f3;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #1E88E5;
+}
+nav button:hover{
+	background-color: #0074b9;
+}
+.banner{
+	padding-top: 100px;
+	display: block;
+	height: 400px;
+	background: url('../img/eff_2.jpg');
+	background-attachment: fixed;
+	/*background-repeat: no-repeat;*/
+}
+.info{
+	background-color: rgba(255,255,255,0.7);
+	width: 60%;
+	margin: 0 auto;
+	padding:10px;
+	overflow: hidden;
+}
+.info img{
+	float: left;
+	margin-right: 10px;
+}
+.r{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.k4{
+	float: left;
+	padding: 3px;
+	width: 250px;
+	background-color: #fff;
+}
+.k2{
+	float: left;
+	padding: 3px;
+	width: 500px;
+}
+.post{
+	width: 100%;
+	border: 1px solid #ddd;
+}
+.post p{
+	display: block;
+	text-align: center;
+	padding: 10px 0px;
+}
+.post h3{
+	display: block;
+	text-align: center;
+	padding: 3px 0px;
+	margin-bottom: 10px; 
+}
+.gambar{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.gambar img{
+	width: 100%; height: auto;
+	transition: 0.2s linear;
+}
+.gambar img:hover{
+	/*filter: opacity(50%);*/
+	transform: scale(0.8);
+	transition: 0.2s linear;
+}
+.cap{
+	display: block;
+	text-align: right;
+	height: 50px; padding-right: 7px;
+	line-height: 50px;
+}
+.detail{
+	width: 900px; overflow: hidden;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+.gamdet{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #fff;
+}
+.gamdet p{
+	display: block;
+	text-align: center;
+}
+.gamdet img{
+	width: 100%; height: auto;
+	margin-bottom: 10px;
+}
+.isidet{
+	display: block;
+}
+.isidet p{
+	font-size: 1.2em;
+}
+.opsi{
+	display: block;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.2em;
+}
+.isidet label{
+	font-size: 1em;
+	margin: 10px 0px;
+	border-bottom: 1px solid #ddd;
+	color: #2196f3;
+	display: block;
+}
+/*--------------TOMBOL----------------*/
+.tmbl{
+	padding: 7px 10px;
+	border: none; font-size: 0.8em;
+	border-radius: 4px;
+}
+.tmbl:hover{
+	cursor: pointer;
+}
+/*--------------TOMBOL----------------*/
+/*--------------WARNA----------------*/
+.putih{
+	background-color: #fff; color: #222;
+	border: 1px solid #bbb;
+}
+.putih:hover{
+	background-color: #eee;
+}
+.hitam{
+	background-color: #222;
+	color: #fff;
+	border: 1px solid #080808;
+}
+.hitam:hover{
+	color: rgba(255,255,255,0.5);
+}
+.biru{
+	background-color: #2196f3;
+	color: #fff;
+	border: 1px solid #1E88E5;
+}
+.biru:hover{
+	background-color: #0074b9;
+}
+.hijau{
+	background-color: #76FF03;
+	color: #fff;
+	border: 1px solid #64DD17;
+}
+.hijau:hover{
+	background-color: #64DD17;
+}
+.merah{
+	background-color: #F44336;
+	color: #fff;
+	border: 1px solid #E53935;
+}
+.merah:hover{
+	background-color: #E53935;
+}
+.oranye{
+	background-color: #FFC107;
+	color: #fff;
+	border: 1px solid #FFB300;
+}
+.oranye:hover{
+	background-color: #FFB300;
+}
+/*--------------WARNA----------------*/
+.addpost{
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	width: 600px; padding: 10px;
+	margin: 0 auto; overflow: hidden;
+	margin-bottom: 20px;
+}
+label{
+	display: block; padding: 5px 0px;
+	margin: 5px 0px; color: #00BFA5;
+	clear: both;
+}
+.addpost input, .addpost textarea{
+	width: 50%; border: 1px solid #ddd;
+	padding: 10px; border-radius: 4px;
+	box-sizing: border-box; float: left;
+	background-color: white;
+}
+.addpost textarea{
+	width: 100%;
+}
+textarea{
+	resize: none;
+	width: 100%; height: 120px;
+}
+.addpost input[type="file"]{
+	width: 100%; background-color: white;
+	margin-bottom: 10px;
+}
+input:invalid{
+	color: #f44336;
+}
+.addpost button{
+	padding: 10px 30px;
+	margin: 5px; color: white;
+	border: none; border-radius: 4px;
+	cursor: pointer;
+}
+.ongkir{
+	background-color: #f8f8f8;
+	display: block;
+	margin-bottom: 20px;
+}
+.ongkir select, .ongkir button{
+	padding: 5px;
+}
+.ongkir button{
+	background-color: #f44336;
+	color: white;
+	padding: 7px 10px;
+	border: none;
+}
+.label{
+	margin: 0px 0px 5px 0px; 
+	border-bottom: 1px solid #e7e7e7;
+	padding: 7px; font-size: 1.5em;
+	display: block;
+	color: #00BFA5;
+}
+.keranjang{
+	width: 100%;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.keranjang a{
+	padding: 3px 5px;
+	font-size: 0.7em; border-radius: 4px;
+}
+.keranjang table{
+	width: 100%;
+	border: 1px solid #f0f0f0;
+	border-spacing: 0;
+	box-sizing: border-box;
+}
+.keranjang table thead{
+	background-color: #f0f0f0;
+	text-align: center;
+}
+.keranjang table thead td{
+	padding: 10px; box-sizing: border-box;
+}
+.keranjang table tbody td{
+	padding: 7px;
+}
+.keranjang table tbody tr:nth-child(even){
+	background-color: #f9f9f9;
+}
+#bayar{
+	display: block;
+	text-align: right;
+	margin-top: 15px;
+	padding: 7px;
+	font-size: 1.3em;
+	color: #424242;
+	background-color: #f8f8f8;
+}
+.lanjut{
+	display: block;
+	text-align: right;
+	padding: 10px;
+	margin: 10px 0px;
+	margin-bottom: 50px;
+}
+.lanjut a{
+	font-size: 1em;
+}
+.footer{
+	margin-top: 50px;
+	display: block;
+	min-height: 100px;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+}
+.footer a{
+	color: #2196f3;
+	text-decoration: underline;
+}
+.fotb{
+	padding: 20px 0px;
+	display: block;
+	text-align: center;
+	background-color: #e0e0e0;
+}
+.masukan{
+	width: 500px;
+	margin: 10px auto;
+}

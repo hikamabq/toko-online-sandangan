@@ -1,0 +1,198 @@
+
+*{
+	margin: 0; padding: 0;
+	font-family: sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	max-width: 100% !important;
+	box-sizing: border-box;
+}
+.konten{
+	width: 1000px; margin: 0 auto;
+}
+.kontenfull{
+	width: 100%; margin: 0 auto;
+	padding: 0px 20px;
+}
+.baris{
+	display: block;
+	overflow: hidden;
+}
+.kol-1{
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+.kol-2{
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+.kol-3{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+.kol-4{
+	float: left;
+	width: 25%;
+	padding: 5px;
+}
+.kanan{float: right;}
+.kiri{float: left;}
+.bersih{clear: both;}
+.full{
+	width: 100%;
+}
+/*--------------NAVIGASI----------------*/
+.nav{
+	display: block;
+	height: 50px; line-height: 50px;
+	margin-bottom: 30px;
+}
+.nav li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+.nav-hitam{
+	background-color: #222; color: #fff;
+	border: 1px solid #080808;
+}
+.nav-abu{
+	background-color: #f8f8f8; color: #757575;
+	border: 1px solid #e7e7e7;
+}
+.nav-hitam li{
+	color: #fff;
+}
+.nav-hitam li:hover{
+	color: rgba(255,255,255,0.5);
+}
+.nav-abu li{
+	color: #757575;
+}
+.nav-abu li:hover{
+	color: #222;
+}
+/*--------------END NAVIGASI----------------*/
+/*--------------ELEMEN FORM----------------*/
+label{
+	display: block;
+	padding: 2px 0px 5px 0px;
+}
+/*button, input, textarea{
+	outline: none;
+}*/
+input:invalid{
+	color: #F44336;
+}
+textarea{
+	resize: none;
+	min-height: 100px;
+}
+.form{
+	padding: 10px;
+	border: 1px solid #ddd;
+	background-color: #f8f8f8;
+	border-radius: 4px; overflow: hidden;
+}
+.input, .text{
+	padding: 9px; background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	transition: 0.3s;
+}
+.text{
+	resize: none;
+	min-height: 100px;
+}
+.input:focus, .text:focus{
+	border: 1px solid #90CAF9;
+	outline: 5px;
+	outline-offset: -3px;
+	/*box-shadow: 0px 0px 2px 1px #90CAF9 inset;*/
+	transition: 0.3s;
+	/*border: none;*/
+}
+/*--------------END ELEMEN FORM----------------*/
+/*--------------POST----------------*/
+.posting{
+	padding: 5px;
+	background-color: #fff;
+	border:1px solid #ddd;
+	border-radius: 4px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.posting b{
+	display: block;
+	color: lime;
+}
+/*--------------ENDPOST----------------*/
+/*--------------TOMBOL----------------*/
+.tmbl{
+	padding: 9px 13px;
+	border: none; font-size: 0.8em;
+	border-radius: 4px;
+}
+.tmbl:hover{
+	cursor: pointer;
+}
+/*--------------END TOMBOL----------------*/
+/*--------------WARNA----------------*/
+.putih{
+	background-color: #fff; color: #222;
+	border: 1px solid #bbb;
+}
+.putih:hover{
+	background-color: #eee;
+}
+.hitam{
+	background-color: #222;
+	color: #fff;
+	border: 1px solid #080808;
+}
+.hitam:hover{
+	color: rgba(255,255,255,0.5);
+}
+.biru{
+	background-color: #2196f3;
+	color: #fff;
+	border: 1px solid #1E88E5;
+}
+.biru:hover{
+	background-color: #1E88E5;
+}
+/*.cyan{
+	background-color: #00BCD4;
+	color: #fff;
+	border: 1px solid #00ACC1;
+}
+.cyan:hover{
+	background-color: #00ACC1;
+}*/
+.hijau{
+	background-color: #76FF03;
+	color: #fff;
+	border: 1px solid #64DD17;
+}
+.hijau:hover{
+	background-color: #64DD17;
+}
+.merah{
+	background-color: #F44336;
+	color: #fff;
+	border: 1px solid #E53935;
+}
+.merah:hover{
+	background-color: #E53935;
+}
+.oranye{
+	background-color: #FFC107;
+	color: #fff;
+	border: 1px solid #FFB300;
+}
+.oranye:hover{
+	background-color: #FFB300;
+}
+/*--------------END WARNA----------------*/
